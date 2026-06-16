@@ -144,6 +144,16 @@ const Footer = () => {
               <a className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-64 bg-gray-900 border border-gray-700 rounded-xl p-4 text-left opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
+                  <p className="text-white font-semibold text-sm mb-2">Privacy Policy</p>
+                  <p className="text-gray-300 text-xs leading-relaxed mb-2">We are committed to protecting your personal information and your right to privacy.</p>
+                  <ul className="text-xs text-gray-400 space-y-1">
+                    <li>👤 <span className="text-gray-300">Data Collection</span> — Only what's needed to provide services</li>
+                    <li>🔐 <span className="text-gray-300">Data Security</span> — Encrypted and securely stored</li>
+                    <li>🚫 <span className="text-gray-300">No Selling</span> — We never sell your personal data</li>
+                  </ul>
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-full w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-gray-700"></div>
+                </div>
               </a>
               <a className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Terms of Service</span>
